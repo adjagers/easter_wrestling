@@ -3,3 +3,8 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.rounded-lg {
+    border-radius: 1.25rem;
+  }
+  
