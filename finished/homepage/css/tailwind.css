@@ -3016,7 +3016,7 @@ video {
 }
 
 .rounded-lg {
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 .rounded-full {
@@ -11399,10 +11399,6 @@ video {
 
 .z-auto {
   z-index: auto;
-}
-
-.rounded-lg {
-  border-radius: 1.25rem;
 }
 
 @media (min-width: 640px) {
@@ -54508,4 +54504,3 @@ video {
     z-index: auto;
   }
 }
-  
