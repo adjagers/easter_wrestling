@@ -11405,6 +11405,34 @@ video {
   border-radius: 1.25rem;
 }
 
+.bg-gray-200 {
+  background: #f2f2f2;
+}
+
+.bg-gray-400 {
+  background: #C4C4C4;
+}
+
+.bg-gray-600 {
+  background: #7B7B7B;
+}
+
+.bg-gray-800 {
+  background: #585858;
+}
+
+@media (max-width: 375px) {
+  .home {
+    padding-bottom: 71px;
+  }
+}
+
+@media (min-height: 835px) {
+  .wrapper {
+    height: 100vh;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -54508,4 +54536,3 @@ video {
     z-index: auto;
   }
 }
-  
