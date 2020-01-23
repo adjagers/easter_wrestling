@@ -1,7 +1,5 @@
 //IMPORTS
 
-
-
 //VARIABLES
 
 //converts day numbers to day names
