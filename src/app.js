@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //IMPORTS
 
 
@@ -20,10 +21,20 @@ var matchAmount = '';
 $(document).ready(function () {
 
   //Splash Screen
+=======
+$(window).on('load', function () {
+    $('.loading').fadeOut(1500, function () {
+        $(".loading").remove();
+      });
+})
+$(document).ready(function(){
+
+>>>>>>> ddf4735d8288da5dbdc90a01fccc0ca2783c9599
   if (sessionStorage.getItem('splash') !== 'true') {
     $('.loading').fadeOut(1500, function () {
       $(".loading").remove();
     });
+<<<<<<< HEAD
     sessionStorage.setItem('splash', 'true');
   }
   else {
@@ -114,4 +125,11 @@ $(document).ready(function () {
     tnmrequest.JSONRequest('tmj', 'lt', '2019');
     lparequest.JSONRequest('tmj', 'lt', '2019');
   })
+=======
+      sessionStorage.setItem('splash','true');
+  }
+  else {
+    $(".loading").remove();
+  }    
+>>>>>>> ddf4735d8288da5dbdc90a01fccc0ca2783c9599
 });
