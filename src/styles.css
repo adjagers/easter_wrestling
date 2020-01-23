@@ -18,9 +18,12 @@
 .bg-gray-800 {
     background: #585858;
 }
+.bg-gray-1000 {
+    background: #4D4D4D;
+}
 @media (max-width: 375px) {
     .home {
-        padding-bottom: 96px;
+        padding-bottom: 71px;
     }
 }
 @media (min-height: 835px) {

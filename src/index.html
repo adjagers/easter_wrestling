@@ -1,23 +1,32 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <title>Home - Easter Wrestling</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
 </head>
+
 <body class="bg-gray-200">
     <!--Content-->
-    <div class="wrapper flex items-center">
+    <div class="wrapper flex items-center w-full">
         <div class="container home mx-auto px-4 md:w-3/5 lg:w-2/5 xl:w-1/4">
             <!--Heading-->
-            <div class="heading flex justify-between">
-                <span class="text-4xl text-black-600 font-sans">4</span>
-                <h1 class="text-3xl flex items-center justify-center text-black-600 font-sans">My tournament</h1>
-                <div class="md:flex">
+            <div class="heading flex justify-center py-5">
+                <h1 class="text-3xl flex items-center justify-center text-black-600 font-sans">Easter Wrestling</h1>
+            </div>
+            <!--Overview Next Match-->
+            <h3 class="font-black text-gray-700 pb-2">Upcoming Matches</h3>
+            <div class="slider flex-col">
+                <div class="dateSlider flex justify-center">
+                    <button class="slider-left"><img src="../dist/img/arrow-left.svg" alt="arrow-left"
+                            width="20"></button>
+                    <p class="px-2">January 5th 2020</p>
+                    <button class="slider-right"><img src="../dist/img/arrow-right.svg" alt="arrow-right"
+                            width="20"></button>
                 </div>
             </div>
-            <!--Overview-->
             <div class="overview flex">
                 <div class="logo"><img class="w-32" src="src/img/logo.svg" alt="logo"></div>
                 <div class="text flex flex-col justify-center">
@@ -25,37 +34,46 @@
                         <h2 class="font-bold">Easter <br> Tournament</h2>
                     </div>
                     <div class="progress">
-                    <a class="" href="#">Open</a><span
-                        class="inline-block bg-gray-400 rounded-full px-3 py-1 text-sm font-semibold text-yellow-400 mx-2">IN
-                        PROGRESS</span>
+                        <a class="" href="#">Open</a><span
+                            class="inline-block bg-gray-400 rounded-full px-3 py-1 text-sm font-semibold text-yellow-400 mx-2">IN
+                            PROGRESS</span>
                     </div>
                 </div>
             </div>
-            <!--Upcomping Match-->
+            <!--Upcomping Match Details-->
             <div class="next-match bg-gray-800 text-white p-5 my-4 rounded-lg">
-                <div class="match-data">
-                    <h2>Upcoming match</h2>
-                    <!-- Date -->
-                    <p class="date"><span class="day text-sm text-gray-400">Friday:</span> <span class="dateTime text-sm font-bold text-gray-200">June 16 -08:00</span></p>
+                <div class="flex flex-col">
+                    <!-- Match Name -->
+                    <div class="matchName py-1">
+                        <p class="font-bold text-lg">Tournament</p>
+                    </div>
+                    <!-- Match Details -->
+                    <div class="matchDetails">
+                        <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum inventore
+                            laborum est, beatae
+                            totam hic iusto eaque.</p>
+                    </div>
+                    <!-- Match Date -->
+                    <p class="matchDate py-1"><span class="day text-sm text-gray-400">Friday:</span> <span
+                            class="matchDateTime text-sm font-bold text-gray-200">June 16 -08:00</span></p>
                 </div>
-                <div class="flex">
-                    <div class="matchName font-bold">Tournament</div>
-                </div>
-            </div>
-            <!--Tournament brackets-->
-            <div class="tournament-brackets bg-gray-800 py-5 rounded-lg mx-auto">
-                <p class="text-white text-center">Tournament Brackets</p>
             </div>
             <!--Participants-->
             <div class="participants my-4">
                 <h3 class="font-black text-gray-700">Participants</h3>
                 <div class="flex py-4 overflow-scroll overflow-y-hidden">
-                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
-                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
-                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
-                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
-                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
-                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
+                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg"
+                        alt="profile_picture">
+                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg"
+                        alt="profile_picture">
+                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg"
+                        alt="profile_picture">
+                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg"
+                        alt="profile_picture">
+                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg"
+                        alt="profile_picture">
+                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg"
+                        alt="profile_picture">
                 </div>
             </div>
         </div>
@@ -67,13 +85,18 @@
                 <a class="text-gray-500 hover:text-blue-800" href="#"><i class="fas fa-home text-4xl"></i></a>
             </li>
             <li class="mr-6">
-                <a class="text-blue-500 hover:text-blue-800 " href="#"> <img class="w-16 h-16 object-cover rounded-full"
-                        src="src/img/profile.jpg" alt="profile_picture"> </a>
-            </li>
-            <li class="mr-6">
                 <a class="text-orange-400 hover:text-blue-800" href="#"><i class="fas fa-calendar-alt text-4xl"></i></a>
             </li>
         </ul>
     </nav>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="src/app.js"></script>
+    <div class="loading w-screen h-screen fixed bg-gray-1000 top-0">
+        <div class="container mx-auto flex items-center justify-center h-screen flex-col ">
+            <img src="src/img/logo.svg" alt="logo">
+        </div>
+    </div>
 </body>
+
 </html>
