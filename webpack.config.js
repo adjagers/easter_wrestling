@@ -27,5 +27,9 @@ module.exports = {
       filename: 'index.html',
       template: 'src/index.html',
     }),
+    new HtmlWebpackPlugin({
+      filename: 'matches.html',
+      template: '../src/matches.html',
+    }),
   ],
 }
