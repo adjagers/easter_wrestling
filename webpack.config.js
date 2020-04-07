@@ -29,7 +29,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'matches.html',
-      template: '../src/matches.html',
+      template: 'src/matches.html',
     }),
   ],
 }

@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <title>Home - Easter Wrestling</title>
     <meta charset="utf-8">
@@ -9,68 +8,65 @@
 </head>
 
 <body class="bg-gray-200">
+
     <!--Content-->
     <div class="wrapper flex items-center w-full">
+      
         <div class="container home mx-auto px-4 md:w-3/5 lg:w-2/5 xl:w-1/4">
             <!--Heading-->
-            <div class="heading flex justify-center py-5">
-                <h1 class="text-3xl flex items-center justify-center text-black-600 font-sans">Easter Wrestling</h1>
+            <div class="heading justify-center py-5">
+                <h1 class="text-2xl flex items-center my-4 justify-center text-black-600 font-sans">4 Tournament Easter wrestling</h1>
+                <h2 class="text-lg text-gray-600 flex items-center justify-center">Eastern Tournament Utrecht</h2>
             </div>
             <!--Overview Next Match-->
-            <h3 class="font-black text-gray-700 pb-2">Upcoming Matches</h3>
-            <div class="slider flex-col">
-                <div class="dateSlider flex justify-center">
-                    <button class="slider-left"><img src="../dist/img/arrow-left.svg" alt="arrow-left"
-                            width="20"></button>
-                    <p class="px-2 matchDateSlider"></p>
-                    <button class="slider-right"><img src="../dist/img/arrow-right.svg" alt="arrow-right"
-                            width="20"></button>
-                </div>
-            </div>
-            <div class="overview flex">
-                <div class="logo"><img class="w-32" src="src/img/logo.svg" alt="logo"></div>
-                <div class="text flex flex-col justify-center">
-                    <div class="title">
-                        <h2 class="matchName font-bold"></h2>
-                    </div>
-                    <div class="progress">
-                        <a class="" href="#">Open</a><span
-                            class="matchProgress inline-block bg-gray-400 rounded-full px-3 py-1 text-sm font-semibold text-yellow-400 mx-2"></span>
-                    </div>
-                </div>
+            <div class="flex items-start bg-gray-200 ">
+              <div class="flex-1 border-b-2 text-gray-700 text-center border-gray-400">Round 1</div>
+              <div class="flex-1 border-b-2 text-gray-700 text-center border-gray-400">Quarterfinal</div>
+              <div class="flex-1 border-b-2 text-gray-700 text-center border-gray-400">Semifinal</div>
             </div>
             <!--Upcomping Match Details-->
-            <div class="next-match bg-gray-800 text-white p-5 my-4 rounded-lg">
-                <div class="flex flex-col">
-                    <!-- Match Name -->
-                    <div class="py-1">
-                        <p class="font-bold text-lg matchName"></p>
+            <div class="next-match text-white p-5 my-4">
+                    <!-- Participant image -->
+                    <div class="row">
+                      <div class="col">
+                      <img class="w-16 h-16 mt-2 inline-flex border-4 border-blue-500 object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
+                      <!-- match score -->
+                      <br>
+                      <div class="flex flex-col bg-gray-200">
+  <div class="text-gray-700 text-center bg-gray-400 grad px-4 py-2 m-2">1</div>
+  <div class="text-gray-700 text-center bg-gray-400 grad px-4 py-2 m-2">2</div>
+  <div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">3</div>
+</div>
+                      <span class="bg-blue-500 inline-flex flex-col grad p-3 rounded">1</span>
+                      <span class="bg-blue-500 inline-flex flex-col grad p-3 rounded">1</span>
+
+                      <img class="w-16 h-16 mt-2 inline-flex object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
+                      </div>
+                      <div class="row">
+                        <img class="w-16 inline-flex h-16 mt-2 border-4 border-red-500 object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
+                      </div>
                     </div>
-                    <!-- Match Details -->
-                    <div class="matchDetails">
-                        <p class="text-sm matchDescription"></p>
+                    <div class="row">
+                      <img class="w-16 h-16 mt-2 inline-flex border-4 border-blue-500 object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
+                      <!-- match score -->
+                      <span class="bg-blue-500 p-3 rounded">0</span>
+                      <div class="row">
+                        <img class="w-16 inline-flex h-16 mt-2 border-4 border-red-500 object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
+                        <span class="bg-red-500 p-3 rounded">1</span>
+                      </div>
                     </div>
+                    <div class="row">
+                      <img class="w-16 h-16 mt-2 inline-flex border-4 border-blue-500 object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
+                      <!-- match score -->
+                      <span class="bg-blue-500 p-3 rounded">0</span>
+                      <div class="row">
+                        <img class="w-16 inline-flex h-16 mt-2 border-4 border-red-500 object-cover rounded-full" src="src/img/profile.jpg" alt="profile_picture">
+                        <span class="bg-red-500 p-3 rounded">1</span>
+                      </div>
+                    </div>
+
+
                     <!-- Match Date -->
-                    <p class="matchDate py-1"><span class="day text-sm text-gray-400"></span> <span
-                            class="matchDateTime text-sm font-bold text-gray-200"></span></p>
-                </div>
-            </div>
-            <!--Participants-->
-            <div class="participants my-4">
-                <h3 class="font-black text-gray-700">Participants</h3>
-                <div class="flex py-4 overflow-scroll overflow-y-hidden">
-                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg"
-                        alt="profile_picture">
-                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg"
-                        alt="profile_picture">
-                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg"
-                        alt="profile_picture">
-                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg"
-                        alt="profile_picture">
-                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg"
-                        alt="profile_picture">
-                    <img class="w-16 h-16 mr-2 object-cover rounded-full" src="src/img/profile.jpg"
-                        alt="profile_picture">
                 </div>
             </div>
         </div>
@@ -79,10 +75,10 @@
     <nav class="py-4 bg-white fixed w-full bottom-0">
         <ul class="flex items-center justify-center">
             <li class="mr-6">
-                <a class="text-gray-500 hover:text-blue-800" href="matches.html"><i class="fas fa-home text-4xl"></i></a>
+                <a class="text-gray-500 hover:text-blue-800" href="index.html"><i class="fas fa-home text-4xl"></i></a>
             </li>
             <li class="mr-6">
-                <a class="text-orange-400 hover:text-blue-800" href="#"><i class="fas fa-calendar-alt text-4xl"></i></a>
+                <a class="text-orange-400 hover:text-blue-800" href="matches.html"><i class="fas fa-calendar-alt text-4xl"></i></a>
             </li>
         </ul>
     </nav>

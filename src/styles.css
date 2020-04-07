@@ -5,6 +5,10 @@
     border-radius: 1.25rem;
 }
 
+.grad {
+  background-image: linear-gradient(to bottom , #4299e1, #f56565);
+}
+
 .bg-gray-200 {
     background: #f2f2f2;
 }
